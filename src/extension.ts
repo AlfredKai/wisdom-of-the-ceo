@@ -7,7 +7,7 @@ const CEO_INTERVAL = 1500000;
 export function activate(context: vscode.ExtensionContext) {
   (async () => {
     try {
-      await callCeo(false);
+      await callCeo(true);
       const interval = setInterval(async () => {
         try {
           callCeo(false);
