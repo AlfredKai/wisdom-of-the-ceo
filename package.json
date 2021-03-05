@@ -1,33 +1,39 @@
 {
-	"name": "wisdom-of-the-ceo",
-	"displayName": "wisdom-of-the-ceo",
-	"description": "Wisdom of The CEO",
-	"version": "0.0.2",
-	"publisher": "alfredkai",
-	"repository": "https://github.com/AlfredKai/wisdom-of-the-ceo",
-	"engines": {
-		"vscode": "^1.34.0"
-	},
-	"categories": [
-		"Other"
-	],
-	"activationEvents": [
-		"onStartupFinished"
-	],
-	"main": "./out/extension.js",
-	"icon": "icon.png",
-	"scripts": {
-		"vscode:prepublish": "npm run compile",
-		"compile": "tsc -p ./",
-		"lint": "eslint . --ext .ts,.tsx",
-		"watch": "tsc -watch -p ./"
-	},
-	"devDependencies": {
-		"@types/node": "^12.12.0",
-		"@types/vscode": "^1.34.0",
-		"@typescript-eslint/eslint-plugin": "^4.16.0",
-		"@typescript-eslint/parser": "^4.16.0",
-		"eslint": "^7.21.0",
-		"typescript": "^4.2.2"
-	}
+  "name": "wisdom-of-the-ceo",
+  "displayName": "wisdom-of-the-ceo",
+  "description": "Wisdom of The CEO",
+  "version": "0.0.3",
+  "publisher": "alfredkai",
+  "repository": "https://github.com/AlfredKai/wisdom-of-the-ceo",
+  "engines": {
+    "vscode": "^1.34.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "keywords": [
+    "wisdom",
+    "ceo",
+    "ceo的智慧",
+    "智慧"
+  ],
+  "icon": "icon.png",
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "lint": "eslint . --ext .ts,.tsx",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.0",
+    "@types/vscode": "^1.34.0",
+    "@typescript-eslint/eslint-plugin": "^4.16.0",
+    "@typescript-eslint/parser": "^4.16.0",
+    "eslint": "^7.21.0",
+    "typescript": "^4.2.2"
+  }
 }
