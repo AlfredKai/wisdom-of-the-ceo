@@ -1,8 +1,8 @@
 {
   "name": "wisdom-of-the-ceo",
-  "displayName": "wisdom-of-the-ceo",
+  "displayName": "CEO的智慧",
   "description": "Wisdom of The CEO",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "publisher": "alfredkai",
   "repository": "https://github.com/AlfredKai/wisdom-of-the-ceo",
   "engines": {
