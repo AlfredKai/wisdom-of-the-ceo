@@ -27,7 +27,6 @@ async function callCeo(first: boolean) {
   if (first) {
     vscode.window.showInformationMessage('您的CEO已經上線！');
     vscode.window.showInformationMessage(msg);
-    first = false;
   } else {
     vscode.window.showInformationMessage(msg);
   }
