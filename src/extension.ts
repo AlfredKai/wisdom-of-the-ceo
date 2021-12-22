@@ -6,7 +6,7 @@ const CEO_INTERVAL = 1500000;
 
 export function activate(context: vscode.ExtensionContext) {
   setInterval(() => {
-    vscode.window.showErrorMessage(WISDOMS[getRandomInt(0, WISDOMS.length - 1)]);
+    vscode.window.showErrorMessage(WISDOMS[getRandomInt(0, WISDOMS.length)]);
   }, CEO_INTERVAL);
 }
 
